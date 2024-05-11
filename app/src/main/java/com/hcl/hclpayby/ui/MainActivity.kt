@@ -18,10 +18,12 @@ import androidx.navigation.navOptions
 import com.google.android.material.snackbar.Snackbar
 import com.hcl.hclpaybay.R
 import com.hcl.hclpaybay.databinding.ActivityMainBinding
+import com.hcl.hclpayby.domain.common.ClientApiResult
 import com.hcl.hclpayby.ui.base.BaseActivity
 import com.hcl.hclpayby.ui.extensions.commonBackLogic
 import com.hcl.hclpayby.ui.extensions.onBackPressManagement
-import com.msi.tnav32.ui.vm.SharedNavigationVM
+import com.hcl.hclpayby.ui.vm.SharedNavigationVM
+import com.hcl.hclpayby.ui.vm.VM
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
@@ -36,6 +38,8 @@ class MainActivity : BaseActivity() {
     private lateinit var navController: NavController
 
     private val sharedNavigationVM: SharedNavigationVM by viewModels()
+
+    private val vm: VM by viewModels()
 
     private val mainMenuProvider = object : MenuProvider {
         override fun onCreateMenu(menu: Menu, menuInflater: MenuInflater) {
@@ -77,7 +81,8 @@ class MainActivity : BaseActivity() {
         //-----------------------------------------------------------------------------
 
         sharedNavigationVmObserver()
-
+        vmGenericObserver()
+        vm.doOtpValidation()
 
         //
         lifecycleScope.launch {
@@ -225,6 +230,34 @@ class MainActivity : BaseActivity() {
             Log.v(TAG, "currentDestination = ${navController.currentDestination}")
             Log.v(TAG, "label = ${navController.currentDestination?.label}")
             Log.v(TAG, "displayName = ${navController.currentDestination?.displayName}")
+        }
+    }
+
+
+    /**
+     * Generic observer
+     * Uses [ClientApiResult]
+     */
+    private fun vmGenericObserver() {
+        Log.d(TAG, "vmGenericObserver: ")
+        vm.uiState().observe(this@MainActivity) { state ->
+            when (state) {
+                is ClientApiResult.Loading -> {
+                    Log.i(TAG, "vmGenericObserver:  observe -> LOADING : ")
+                }
+
+                is ClientApiResult.Success -> {
+                    Log.i(TAG, "vmGenericObserver: 00 observe -> SUCCESS = ${state.data}")
+                }
+
+                is ClientApiResult.Error -> {
+                    Log.e(TAG, "vmGenericObserver:  observe -> ERROR = ${state.errorMessage}")
+                }
+
+                is ClientApiResult.Exception -> {
+                    Log.e(TAG, "vmGenericObserver:  observe -> Exception = ${state.throwable}")
+                }
+            }
         }
     }
 }

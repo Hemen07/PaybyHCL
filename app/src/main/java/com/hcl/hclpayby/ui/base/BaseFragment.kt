@@ -1,14 +1,13 @@
 package com.hcl.hclpayby.ui.base
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.viewbinding.ViewBinding
-import com.msi.tnav32.ui.vm.SharedNavigationVM
+import com.hcl.hclpayby.ui.vm.SharedNavigationVM
 
 private const val TAG = "Pixel-BaseFragment : "
 
