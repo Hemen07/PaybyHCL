@@ -1,4 +1,4 @@
-package com.hcl.hclpayby.ui.vm
+package com.hcl.hclpayby.ui.vm.navigation
 
 import android.os.Bundle
 import android.util.Log
@@ -62,7 +62,7 @@ class SharedNavigationVM @Inject constructor(
         }
     }
 
-    fun changeToolbarTitle(title : String) {
+    fun changeToolbarTitle(title: String) {
         Log.d(TAG, "changeToolbarTitle:")
         viewModelScope.launch {
             uiStateToolbar.value = title

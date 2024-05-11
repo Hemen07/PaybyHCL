@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.viewbinding.ViewBinding
-import com.hcl.hclpayby.ui.vm.SharedNavigationVM
+import com.hcl.hclpayby.ui.vm.navigation.SharedNavigationVM
 
 private const val TAG = "Pixel-BaseFragment : "
 

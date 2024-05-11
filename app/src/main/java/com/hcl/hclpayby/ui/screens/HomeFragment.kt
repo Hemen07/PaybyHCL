@@ -1,4 +1,4 @@
-package com.hcl.hclpayby.ui
+package com.hcl.hclpayby.ui.screens
 
 import android.os.Bundle
 import android.util.Log
