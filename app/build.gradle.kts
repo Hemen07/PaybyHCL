@@ -37,6 +37,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -64,6 +67,20 @@ dependencies {
     // OkHttp interceptors
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
+    val nav_version = "2.7.7"
+
+    // by activityViewModels
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
+
+
+    // nav
+    implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
+    implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+
+    // Feature module Support
+    implementation("androidx.navigation:navigation-dynamic-features-fragment:$nav_version")
+    // google material
+    implementation("com.google.android.material:material:1.11.0")
     // moshi and codegen
     implementation("com.squareup.moshi:moshi-kotlin:1.15.1")
     ksp("com.squareup.moshi:moshi-kotlin-codegen:1.15.1")
@@ -95,4 +112,7 @@ dependencies {
     val coroutinesTestVersion = "1.7.3"
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutinesTestVersion")
     testImplementation("androidx.arch.core:core-testing:2.2.0")
+
+
+
 }
