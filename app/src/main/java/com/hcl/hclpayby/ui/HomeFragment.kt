@@ -1,6 +1,7 @@
 package com.hcl.hclpayby.ui.screens
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -13,6 +14,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.hcl.hclpaybay.R
 import com.hcl.hclpaybay.databinding.FragmentHomeBinding
+import com.hcl.hclpayby.fundtransafer.FundTransaferActivity
 
 
 private const val ARG_PARAM1 = "param1"
@@ -49,8 +51,8 @@ class HomeFragment : Fragment() {
         requireActivity().onBackPressedDispatcher.addCallback(viewLifecycleOwner, onBackPressedCallback)
 
         _binding!!.btnFundTransfer.setOnClickListener {
-            fun Context.toast(message: CharSequence) =
-                Toast.makeText(this, "fund transfer", Toast.LENGTH_SHORT).show()
+            val intent = Intent(activity, FundTransaferActivity::class.java)
+            activity?.startActivity(intent)
         }
         _binding!!.btnBeneficiary.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_beneficiaryFragment)
