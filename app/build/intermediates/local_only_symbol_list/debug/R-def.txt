@@ -82,7 +82,15 @@ menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
+string amount_is_exceeded_your_balance
 string app_name
+string beneficiary_account_number
+string beneficiary_name
+string enter_amount
+string enter_otp
+string enter_remarks
+string no_beneficiary_found
+string transfer
 style Base.Theme.HCLPayby
 style Theme.HCLPayby
 xml backup_rules

@@ -1,4 +1,4 @@
-package com.hcl.hclpayby.ui.vm;
+package com.hcl.hclpayby.ui.vm.navigation;
 
 import androidx.lifecycle.SavedStateHandle;
 import dagger.internal.DaggerGenerated;

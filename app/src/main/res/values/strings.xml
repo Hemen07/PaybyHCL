@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MyBankHCL</string>
+    <string name="beneficiary_name">BeneFiciary Name</string>
+    <string name="beneficiary_account_number">Account Number</string>
+    <string name="enter_amount">Amount</string>
+    <string name="amount_is_exceeded_your_balance">Amount is exceeded than your balance</string>
+    <string name="enter_remarks">Remarks</string>
+    <string name="transfer">Proceed</string>
+    <string name="no_beneficiary_found">No Beneficiary Found</string>
+    <string name="enter_otp">Enter OTP</string>
 </resources>

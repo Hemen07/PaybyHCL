@@ -1,4 +1,4 @@
-package com.hcl.hclpayby.ui.vm;
+package com.hcl.hclpayby.ui.vm.common;
 
 import androidx.lifecycle.ViewModel;
 import dagger.Binds;
@@ -15,10 +15,10 @@ import javax.annotation.processing.Generated;
 
 @Generated("dagger.hilt.android.processor.internal.viewmodel.ViewModelProcessor")
 @OriginatingElement(
-    topLevelClass = SharedNavigationVM.class
+    topLevelClass = CommonVM.class
 )
-public final class SharedNavigationVM_HiltModules {
-  private SharedNavigationVM_HiltModules() {
+public final class CommonVM_HiltModules {
+  private CommonVM_HiltModules() {
   }
 
   @Module
@@ -29,9 +29,9 @@ public final class SharedNavigationVM_HiltModules {
 
     @Binds
     @IntoMap
-    @LazyClassKey(SharedNavigationVM.class)
+    @LazyClassKey(CommonVM.class)
     @HiltViewModelMap
-    public abstract ViewModel binds(SharedNavigationVM vm);
+    public abstract ViewModel binds(CommonVM vm);
   }
 
   @Module
@@ -42,7 +42,7 @@ public final class SharedNavigationVM_HiltModules {
 
     @Provides
     @IntoMap
-    @LazyClassKey(SharedNavigationVM.class)
+    @LazyClassKey(CommonVM.class)
     @HiltViewModelMap.KeySet
     public static boolean provide() {
       return true;

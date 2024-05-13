@@ -3972,9 +3972,12 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string amount_is_exceeded_your_balance
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string beneficiary_account_number
+string beneficiary_name
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3999,6 +4002,9 @@ string default_error_message
 string default_popup_window_title
 string dest_title
 string dropdown_menu
+string enter_amount
+string enter_otp
+string enter_remarks
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -4115,6 +4121,7 @@ string mtrl_timepicker_confirm
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string navigation_menu
+string no_beneficiary_found
 string not_selected
 string off
 string ok
@@ -4139,6 +4146,7 @@ string status_bar_notification_info_overflow
 string switch_role
 string tab
 string template_percent
+string transfer
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

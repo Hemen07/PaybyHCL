@@ -16,7 +16,15 @@
     <dimen name="normal_text">16sp</dimen>
     <dimen name="page_padding">18dp</dimen>
     <dimen name="small_text">14sp</dimen>
+    <string name="amount_is_exceeded_your_balance">Amount is exceeded than your balance</string>
     <string name="app_name">MyBankHCL</string>
+    <string name="beneficiary_account_number">Account Number</string>
+    <string name="beneficiary_name">BeneFiciary Name</string>
+    <string name="enter_amount">Amount</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enter_remarks">Remarks</string>
+    <string name="no_beneficiary_found">No Beneficiary Found</string>
+    <string name="transfer">Proceed</string>
     <style name="Base.Theme.HCLPayby" parent="Theme.Material3.DayNight.NoActionBar">
         
         
