@@ -11,7 +11,7 @@ buildscript {
 plugins {
     println("... plugins")
     id("com.android.application") version "8.2.0" apply false
-    id("org.jetbrains.kotlin.android") version "1.9.10" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.23" apply false
     // ksp thingy
     id("com.google.devtools.ksp") version "1.9.10-1.0.13" apply false
     //  dockka integration

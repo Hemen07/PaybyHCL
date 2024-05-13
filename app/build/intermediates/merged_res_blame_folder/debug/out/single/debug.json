@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_rupee_icon.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/rupee_icon.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/navigation_nav_graph.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_eye_closed.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/eye_closed.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_credit_icon.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/credit_icon.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/layout_fragment_home.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/layout_fragment_account_details.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/layout/fragment_account_details.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_fav_empty_icon.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/fav_empty_icon.xml"
+    },
+    {
+        "merged": "com.hcl.hclpaybay.app-merged_res-75:/navigation_nav_graph.xml.flat",
+        "source": "com.hcl.hclpaybay.app-main-77:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_fav_filled_icon.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/fav_filled_icon.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/layout_layout_transaction_list_item.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/layout/layout_transaction_list_item.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_shape_default.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/shape_default.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/layout_fragment_beneficiary.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/layout/fragment_beneficiary.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_debit_icon.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/debit_icon.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/menu_menu_main.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_shape_selector.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/shape_selector.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_ic_baseline_help_24.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/ic_baseline_help_24.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_eye_open.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/eye_open.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_shape_pressed.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/shape_pressed.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/layout_toolbar.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/layout/toolbar.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/layout_layout_beneficiaries_list_item.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/layout/layout_beneficiaries_list_item.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/layout_activity_main.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/drawable_ic_arrow_back_white.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/drawable/ic_arrow_back_white.xml"
+    },
+    {
+        "merged": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-merged_res-75:/xml_backup_rules.xml.flat",
+        "source": "/Users/singh/.gradle/daemon/8.6/com.hcl.hclpaybay.app-main-77:/xml/backup_rules.xml"
+    }
+]

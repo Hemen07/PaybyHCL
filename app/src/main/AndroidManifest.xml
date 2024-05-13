@@ -15,14 +15,17 @@
         android:theme="@style/Theme.HCLPayby"
         tools:targetApi="31">
         <activity
-            android:name="com.hcl.hclpayby.ui.MainActivity"
-            android:exported="true">
+            android:name="com.hcl.hclpayby.ui.LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.hcl.hclpayby.ui.MainActivity"/>
     </application>
 
 </manifest>

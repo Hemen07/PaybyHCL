@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hcl.hclpaybay"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.13.1] /Users/singh/.gradle/caches/transforms-4/6472441f93f3df96201827143ba37430/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+14        android:name="com.hcl.hclpaybay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.13.1] /Users/singh/.gradle/caches/transforms-4/6472441f93f3df96201827143ba37430/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.13.1] /Users/singh/.gradle/caches/transforms-4/6472441f93f3df96201827143ba37430/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.hcl.hclpaybay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.13.1] /Users/singh/.gradle/caches/transforms-4/6472441f93f3df96201827143ba37430/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.13.1] /Users/singh/.gradle/caches/transforms-4/6472441f93f3df96201827143ba37430/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:6:5-29:19
+20        android:name="com.hcl.hclpayby.application.MyApplication"
+20-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:7:9-66
+21        android:allowBackup="true"
+21-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.13.1] /Users/singh/.gradle/caches/transforms-4/6472441f93f3df96201827143ba37430/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:9:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:10:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.HCLPayby" >
+32-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:15:9-46
+33        <activity
+33-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:17:9-26:20
+34            android:name="com.hcl.hclpayby.ui.LoginActivity"
+34-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:18:13-61
+35            android:exported="true"
+35-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:19:13-36
+36            android:label="@string/app_name" >
+36-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:20:13-45
+37            <intent-filter>
+37-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:21:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:22:17-69
+38-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:22:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:24:17-77
+40-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity android:name="com.hcl.hclpayby.ui.MainActivity" />
+43-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:27:9-28:62
+43-->/Users/singh/AndroidStudioProjects/PaybyHCL/app/src/main/AndroidManifest.xml:28:13-60
+44
+45        <meta-data
+45-->[com.google.android.gms:play-services-basement:18.1.0] /Users/singh/.gradle/caches/transforms-4/c1a711c4483035717f28b5ed95d62eaf/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+46            android:name="com.google.android.gms.version"
+46-->[com.google.android.gms:play-services-basement:18.1.0] /Users/singh/.gradle/caches/transforms-4/c1a711c4483035717f28b5ed95d62eaf/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+47            android:value="@integer/google_play_services_version" />
+47-->[com.google.android.gms:play-services-basement:18.1.0] /Users/singh/.gradle/caches/transforms-4/c1a711c4483035717f28b5ed95d62eaf/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+48
+49        <uses-library
+49-->[androidx.window:window:1.0.0] /Users/singh/.gradle/caches/transforms-4/ebe4489a63ddf24abf38725e120b445f/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+50            android:name="androidx.window.extensions"
+50-->[androidx.window:window:1.0.0] /Users/singh/.gradle/caches/transforms-4/ebe4489a63ddf24abf38725e120b445f/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+51            android:required="false" />
+51-->[androidx.window:window:1.0.0] /Users/singh/.gradle/caches/transforms-4/ebe4489a63ddf24abf38725e120b445f/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+52        <uses-library
+52-->[androidx.window:window:1.0.0] /Users/singh/.gradle/caches/transforms-4/ebe4489a63ddf24abf38725e120b445f/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+53            android:name="androidx.window.sidecar"
+53-->[androidx.window:window:1.0.0] /Users/singh/.gradle/caches/transforms-4/ebe4489a63ddf24abf38725e120b445f/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+54            android:required="false" />
+54-->[androidx.window:window:1.0.0] /Users/singh/.gradle/caches/transforms-4/ebe4489a63ddf24abf38725e120b445f/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.3.0] /Users/singh/.gradle/caches/transforms-4/52a7a9c0bd3d9370c1849c6fafe2670f/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.3.0] /Users/singh/.gradle/caches/transforms-4/52a7a9c0bd3d9370c1849c6fafe2670f/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+58            android:authorities="com.hcl.hclpaybay.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.3.0] /Users/singh/.gradle/caches/transforms-4/52a7a9c0bd3d9370c1849c6fafe2670f/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.3.0] /Users/singh/.gradle/caches/transforms-4/52a7a9c0bd3d9370c1849c6fafe2670f/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.3.0] /Users/singh/.gradle/caches/transforms-4/52a7a9c0bd3d9370c1849c6fafe2670f/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.3.0] /Users/singh/.gradle/caches/transforms-4/52a7a9c0bd3d9370c1849c6fafe2670f/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.3.0] /Users/singh/.gradle/caches/transforms-4/52a7a9c0bd3d9370c1849c6fafe2670f/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/singh/.gradle/caches/transforms-4/bf77625513806fea8810fe4b9acc2535/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/singh/.gradle/caches/transforms-4/bf77625513806fea8810fe4b9acc2535/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/singh/.gradle/caches/transforms-4/bf77625513806fea8810fe4b9acc2535/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <service
+71-->[androidx.room:room-runtime:2.6.1] /Users/singh/.gradle/caches/transforms-4/61475d03e38ac155f76f390cc5c818f4/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+72            android:name="androidx.room.MultiInstanceInvalidationService"
+72-->[androidx.room:room-runtime:2.6.1] /Users/singh/.gradle/caches/transforms-4/61475d03e38ac155f76f390cc5c818f4/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+73            android:directBootAware="true"
+73-->[androidx.room:room-runtime:2.6.1] /Users/singh/.gradle/caches/transforms-4/61475d03e38ac155f76f390cc5c818f4/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+74            android:exported="false" />
+74-->[androidx.room:room-runtime:2.6.1] /Users/singh/.gradle/caches/transforms-4/61475d03e38ac155f76f390cc5c818f4/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+75
+76        <receiver
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+77            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+78            android:directBootAware="false"
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+79            android:enabled="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+80            android:exported="true"
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+81            android:permission="android.permission.DUMP" >
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+83                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+86                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+89                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+92                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/singh/.gradle/caches/transforms-4/9ecd9d118b77cb0fb7879ffe05333d02/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+93            </intent-filter>
+94        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+95        <activity
+95-->[com.google.android.play:core-common:2.0.2] /Users/singh/.gradle/caches/transforms-4/cdf1dd4cc3e6b02089d629b2247f4d6b/transformed/core-common-2.0.2/AndroidManifest.xml:14:9-18:65
+96            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+96-->[com.google.android.play:core-common:2.0.2] /Users/singh/.gradle/caches/transforms-4/cdf1dd4cc3e6b02089d629b2247f4d6b/transformed/core-common-2.0.2/AndroidManifest.xml:15:13-93
+97            android:exported="false"
+97-->[com.google.android.play:core-common:2.0.2] /Users/singh/.gradle/caches/transforms-4/cdf1dd4cc3e6b02089d629b2247f4d6b/transformed/core-common-2.0.2/AndroidManifest.xml:16:13-37
+98            android:stateNotNeeded="true"
+98-->[com.google.android.play:core-common:2.0.2] /Users/singh/.gradle/caches/transforms-4/cdf1dd4cc3e6b02089d629b2247f4d6b/transformed/core-common-2.0.2/AndroidManifest.xml:17:13-42
+99            android:theme="@style/Theme.PlayCore.Transparent" />
+99-->[com.google.android.play:core-common:2.0.2] /Users/singh/.gradle/caches/transforms-4/cdf1dd4cc3e6b02089d629b2247f4d6b/transformed/core-common-2.0.2/AndroidManifest.xml:18:13-62
+100    </application>
+101
+102</manifest>

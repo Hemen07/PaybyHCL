@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="DarkGrey">#171616</color>
+    <color name="Primary">#017911</color>
+    <color name="SecondPrimary">#EDEDED</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="icon_size">20dp</dimen>
+    <dimen name="icon_size_25dp">25dp</dimen>
+    <dimen name="large_text">30sp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="normal_text">16sp</dimen>
+    <dimen name="page_padding">18dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <string name="app_name">MyBankHCL</string>
+    <style name="Base.Theme.HCLPayby" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.HCLPayby" parent="Base.Theme.HCLPayby"/>
+</resources>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.hcl.hclpaybay.app-mergeDebugResources-74:/layout/activity_main.xml",
+        "source": "com.hcl.hclpaybay.app-main-77:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.hcl.hclpaybay.app-mergeDebugResources-74:/layout/fragment_home.xml",
+        "source": "com.hcl.hclpaybay.app-main-77:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.hcl.hclpaybay.app-mergeDebugResources-74:/layout/toolbar.xml",
+        "source": "com.hcl.hclpaybay.app-main-77:/layout/toolbar.xml"
+    },
+    {
+        "merged": "com.hcl.hclpaybay.app-mergeDebugResources-74:/layout/fragment_account_details.xml",
+        "source": "com.hcl.hclpaybay.app-main-77:/layout/fragment_account_details.xml"
+    },
+    {
+        "merged": "com.hcl.hclpaybay.app-mergeDebugResources-74:/layout/fragment_beneficiary.xml",
+        "source": "com.hcl.hclpaybay.app-main-77:/layout/fragment_beneficiary.xml"
+    },
+    {
+        "merged": "com.hcl.hclpaybay.app-mergeDebugResources-74:/layout/layout_beneficiaries_list_item.xml",
+        "source": "com.hcl.hclpaybay.app-main-77:/layout/layout_beneficiaries_list_item.xml"
+    },
+    {
+        "merged": "com.hcl.hclpaybay.app-mergeDebugResources-74:/layout/layout_transaction_list_item.xml",
+        "source": "com.hcl.hclpaybay.app-main-77:/layout/layout_transaction_list_item.xml"
+    }
+]

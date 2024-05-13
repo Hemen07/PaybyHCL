@@ -11,6 +11,10 @@ android {
     namespace = "com.hcl.hclpaybay"
     compileSdk = 34
 
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.13"
+    }
+
     defaultConfig {
         applicationId = "com.hcl.hclpaybay"
         minSdk = 28
@@ -39,6 +43,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        compose = true
     }
 }
 
@@ -49,9 +54,15 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
+    //compose
+    implementation("androidx.compose.ui:ui:1.1.0-alpha05") // Update to the latest Compose version
+    implementation("androidx.compose.material:material:1.1.0-alpha05") // Update to the latest Compose version
+    implementation("androidx.activity:activity-compose:1.4.0-alpha02") // Update to the latest Activity Compose version
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0-alpha02") // Update to the latest Lifecycle Compose version
 
     // don't you need by viewModels()
     implementation("androidx.activity:activity-ktx:1.9.0")
+    implementation(libs.androidx.ui.tooling.preview.android)
 
     // TODO - This part we gonna explore, long time
     val lifecycleVersion = "2.7.0"
@@ -112,7 +123,5 @@ dependencies {
     val coroutinesTestVersion = "1.7.3"
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutinesTestVersion")
     testImplementation("androidx.arch.core:core-testing:2.2.0")
-
-
 
 }

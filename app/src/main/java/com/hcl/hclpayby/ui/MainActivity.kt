@@ -22,7 +22,7 @@ import com.hcl.hclpayby.domain.common.ClientApiResult
 import com.hcl.hclpayby.ui.base.BaseActivity
 import com.hcl.hclpayby.ui.extensions.commonBackLogic
 import com.hcl.hclpayby.ui.extensions.onBackPressManagement
-import com.hcl.hclpayby.ui.vm.navigation.SharedNavigationVM
+import com.hcl.hclpayby.ui.vm.SharedNavigationVM
 import com.hcl.hclpayby.ui.vm.VM
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
@@ -172,7 +172,7 @@ class MainActivity : BaseActivity() {
                     args = null,
                     navOptions = navOptions {
                         //
-                        this.popUpTo(R.id.settingsFragment) {
+                        this.popUpTo(R.id.fundTransfer) {
                             inclusive = true
                         }
                         //
