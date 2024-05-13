@@ -19,3 +19,5 @@ Technologies Used -
 - MockOtp Postman server
 
 @Neha, @Bhumi, @Uma, @Vishwa, @Hemen.
+
+[click here to download](https://github.com/Hemen07/PaybyHCL/raw/main/app-debug.apk)
