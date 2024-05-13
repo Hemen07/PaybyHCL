@@ -26,10 +26,12 @@ import hilt_aggregated_deps._com_hcl_hclpayby_di_app_dispatcher_CoroutineDispatc
 import hilt_aggregated_deps._com_hcl_hclpayby_di_app_network_NetworkModule;
 import hilt_aggregated_deps._com_hcl_hclpayby_di_app_usecase_UseCaseModule;
 import hilt_aggregated_deps._com_hcl_hclpayby_ui_MainActivity_GeneratedInjector;
-import hilt_aggregated_deps._com_hcl_hclpayby_ui_vm_SharedNavigationVM_HiltModules_BindsModule;
-import hilt_aggregated_deps._com_hcl_hclpayby_ui_vm_SharedNavigationVM_HiltModules_KeyModule;
 import hilt_aggregated_deps._com_hcl_hclpayby_ui_vm_VM_HiltModules_BindsModule;
 import hilt_aggregated_deps._com_hcl_hclpayby_ui_vm_VM_HiltModules_KeyModule;
+import hilt_aggregated_deps._com_hcl_hclpayby_ui_vm_common_CommonVM_HiltModules_BindsModule;
+import hilt_aggregated_deps._com_hcl_hclpayby_ui_vm_common_CommonVM_HiltModules_KeyModule;
+import hilt_aggregated_deps._com_hcl_hclpayby_ui_vm_navigation_SharedNavigationVM_HiltModules_BindsModule;
+import hilt_aggregated_deps._com_hcl_hclpayby_ui_vm_navigation_SharedNavigationVM_HiltModules_KeyModule;
 import hilt_aggregated_deps._dagger_hilt_android_flags_FragmentGetContextFix_FragmentGetContextFixEntryPoint;
 import hilt_aggregated_deps._dagger_hilt_android_flags_HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule;
 import hilt_aggregated_deps._dagger_hilt_android_internal_lifecycle_DefaultViewModelFactories_ActivityEntryPoint;
@@ -79,10 +81,12 @@ import hilt_aggregated_deps._dagger_hilt_android_internal_modules_HiltWrapper_Ac
         _com_hcl_hclpayby_di_app_network_NetworkModule.class,
         _com_hcl_hclpayby_di_app_usecase_UseCaseModule.class,
         _com_hcl_hclpayby_ui_MainActivity_GeneratedInjector.class,
-        _com_hcl_hclpayby_ui_vm_SharedNavigationVM_HiltModules_BindsModule.class,
-        _com_hcl_hclpayby_ui_vm_SharedNavigationVM_HiltModules_KeyModule.class,
         _com_hcl_hclpayby_ui_vm_VM_HiltModules_BindsModule.class,
         _com_hcl_hclpayby_ui_vm_VM_HiltModules_KeyModule.class,
+        _com_hcl_hclpayby_ui_vm_common_CommonVM_HiltModules_BindsModule.class,
+        _com_hcl_hclpayby_ui_vm_common_CommonVM_HiltModules_KeyModule.class,
+        _com_hcl_hclpayby_ui_vm_navigation_SharedNavigationVM_HiltModules_BindsModule.class,
+        _com_hcl_hclpayby_ui_vm_navigation_SharedNavigationVM_HiltModules_KeyModule.class,
         _dagger_hilt_android_flags_FragmentGetContextFix_FragmentGetContextFixEntryPoint.class,
         _dagger_hilt_android_flags_HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule.class,
         _dagger_hilt_android_internal_lifecycle_DefaultViewModelFactories_ActivityEntryPoint.class,

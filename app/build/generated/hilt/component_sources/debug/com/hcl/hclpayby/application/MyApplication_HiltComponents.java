@@ -8,8 +8,9 @@ import com.hcl.hclpayby.di.app.dispatcher.CoroutineDispatchersModule;
 import com.hcl.hclpayby.di.app.network.NetworkModule;
 import com.hcl.hclpayby.di.app.usecase.UseCaseModule;
 import com.hcl.hclpayby.ui.MainActivity_GeneratedInjector;
-import com.hcl.hclpayby.ui.vm.SharedNavigationVM_HiltModules;
 import com.hcl.hclpayby.ui.vm.VM_HiltModules;
+import com.hcl.hclpayby.ui.vm.common.CommonVM_HiltModules;
+import com.hcl.hclpayby.ui.vm.navigation.SharedNavigationVM_HiltModules;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -157,6 +158,7 @@ public final class MyApplication_HiltComponents {
 
   @Subcomponent(
       modules = {
+          CommonVM_HiltModules.KeyModule.class,
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
           HiltWrapper_SavedStateHandleModule.class,
           ActivityCBuilderModule.class,
@@ -199,6 +201,7 @@ public final class MyApplication_HiltComponents {
 
   @Subcomponent(
       modules = {
+          CommonVM_HiltModules.BindsModule.class,
           HiltWrapper_HiltViewModelFactory_ViewModelModule.class,
           SharedNavigationVM_HiltModules.BindsModule.class,
           VM_HiltModules.BindsModule.class

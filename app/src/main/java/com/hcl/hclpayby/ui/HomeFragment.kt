@@ -1,4 +1,4 @@
-package com.hcl.hclpayby.ui.screens
+package com.hcl.hclpayby.ui
 
 import android.content.Context
 import android.content.Intent

@@ -23,10 +23,12 @@ import com.hcl.hclpayby.di.app.network.NetworkModule_ProvideOkHttpClientFactory;
 import com.hcl.hclpayby.di.app.network.NetworkModule_ProvideRetrofitFactory;
 import com.hcl.hclpayby.domain.usecases.GetOtpValidationUseCase;
 import com.hcl.hclpayby.ui.MainActivity;
-import com.hcl.hclpayby.ui.vm.SharedNavigationVM;
-import com.hcl.hclpayby.ui.vm.SharedNavigationVM_HiltModules;
 import com.hcl.hclpayby.ui.vm.VM;
 import com.hcl.hclpayby.ui.vm.VM_HiltModules;
+import com.hcl.hclpayby.ui.vm.common.CommonVM;
+import com.hcl.hclpayby.ui.vm.common.CommonVM_HiltModules;
+import com.hcl.hclpayby.ui.vm.navigation.SharedNavigationVM;
+import com.hcl.hclpayby.ui.vm.navigation.SharedNavigationVM_HiltModules;
 import dagger.hilt.android.ActivityRetainedLifecycle;
 import dagger.hilt.android.ViewModelLifecycle;
 import dagger.hilt.android.internal.builders.ActivityComponentBuilder;
@@ -427,7 +429,7 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
 
     @Override
     public Map<Class<?>, Boolean> getViewModelKeys() {
-      return LazyClassKeyMap.<Boolean>of(MapBuilder.<String, Boolean>newMapBuilder(2).put(LazyClassKeyProvider.com_hcl_hclpayby_ui_vm_SharedNavigationVM, SharedNavigationVM_HiltModules.KeyModule.provide()).put(LazyClassKeyProvider.com_hcl_hclpayby_ui_vm_VM, VM_HiltModules.KeyModule.provide()).build());
+      return LazyClassKeyMap.<Boolean>of(MapBuilder.<String, Boolean>newMapBuilder(3).put(LazyClassKeyProvider.com_hcl_hclpayby_ui_vm_common_CommonVM, CommonVM_HiltModules.KeyModule.provide()).put(LazyClassKeyProvider.com_hcl_hclpayby_ui_vm_navigation_SharedNavigationVM, SharedNavigationVM_HiltModules.KeyModule.provide()).put(LazyClassKeyProvider.com_hcl_hclpayby_ui_vm_VM, VM_HiltModules.KeyModule.provide()).build());
     }
 
     @Override
@@ -447,12 +449,17 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_hcl_hclpayby_ui_vm_SharedNavigationVM = "com.hcl.hclpayby.ui.vm.SharedNavigationVM";
+      static String com_hcl_hclpayby_ui_vm_common_CommonVM = "com.hcl.hclpayby.ui.vm.common.CommonVM";
+
+      static String com_hcl_hclpayby_ui_vm_navigation_SharedNavigationVM = "com.hcl.hclpayby.ui.vm.navigation.SharedNavigationVM";
 
       static String com_hcl_hclpayby_ui_vm_VM = "com.hcl.hclpayby.ui.vm.VM";
 
       @KeepFieldType
-      SharedNavigationVM com_hcl_hclpayby_ui_vm_SharedNavigationVM2;
+      CommonVM com_hcl_hclpayby_ui_vm_common_CommonVM2;
+
+      @KeepFieldType
+      SharedNavigationVM com_hcl_hclpayby_ui_vm_navigation_SharedNavigationVM2;
 
       @KeepFieldType
       VM com_hcl_hclpayby_ui_vm_VM2;
@@ -467,6 +474,8 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
     private final ActivityRetainedCImpl activityRetainedCImpl;
 
     private final ViewModelCImpl viewModelCImpl = this;
+
+    private Provider<CommonVM> commonVMProvider;
 
     private Provider<SharedNavigationVM> sharedNavigationVMProvider;
 
@@ -485,13 +494,14 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
     @SuppressWarnings("unchecked")
     private void initialize(final SavedStateHandle savedStateHandleParam,
         final ViewModelLifecycle viewModelLifecycleParam) {
-      this.sharedNavigationVMProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 0);
-      this.vMProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 1);
+      this.commonVMProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 0);
+      this.sharedNavigationVMProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 1);
+      this.vMProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 2);
     }
 
     @Override
     public Map<Class<?>, javax.inject.Provider<ViewModel>> getHiltViewModelMap() {
-      return LazyClassKeyMap.<javax.inject.Provider<ViewModel>>of(MapBuilder.<String, javax.inject.Provider<ViewModel>>newMapBuilder(2).put(LazyClassKeyProvider.com_hcl_hclpayby_ui_vm_SharedNavigationVM, ((Provider) sharedNavigationVMProvider)).put(LazyClassKeyProvider.com_hcl_hclpayby_ui_vm_VM, ((Provider) vMProvider)).build());
+      return LazyClassKeyMap.<javax.inject.Provider<ViewModel>>of(MapBuilder.<String, javax.inject.Provider<ViewModel>>newMapBuilder(3).put(LazyClassKeyProvider.com_hcl_hclpayby_ui_vm_common_CommonVM, ((Provider) commonVMProvider)).put(LazyClassKeyProvider.com_hcl_hclpayby_ui_vm_navigation_SharedNavigationVM, ((Provider) sharedNavigationVMProvider)).put(LazyClassKeyProvider.com_hcl_hclpayby_ui_vm_VM, ((Provider) vMProvider)).build());
     }
 
     @Override
@@ -501,15 +511,20 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
+      static String com_hcl_hclpayby_ui_vm_common_CommonVM = "com.hcl.hclpayby.ui.vm.common.CommonVM";
+
       static String com_hcl_hclpayby_ui_vm_VM = "com.hcl.hclpayby.ui.vm.VM";
 
-      static String com_hcl_hclpayby_ui_vm_SharedNavigationVM = "com.hcl.hclpayby.ui.vm.SharedNavigationVM";
+      static String com_hcl_hclpayby_ui_vm_navigation_SharedNavigationVM = "com.hcl.hclpayby.ui.vm.navigation.SharedNavigationVM";
+
+      @KeepFieldType
+      CommonVM com_hcl_hclpayby_ui_vm_common_CommonVM2;
 
       @KeepFieldType
       VM com_hcl_hclpayby_ui_vm_VM2;
 
       @KeepFieldType
-      SharedNavigationVM com_hcl_hclpayby_ui_vm_SharedNavigationVM2;
+      SharedNavigationVM com_hcl_hclpayby_ui_vm_navigation_SharedNavigationVM2;
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {
@@ -533,10 +548,13 @@ public final class DaggerMyApplication_HiltComponents_SingletonC {
       @Override
       public T get() {
         switch (id) {
-          case 0: // com.hcl.hclpayby.ui.vm.SharedNavigationVM 
+          case 0: // com.hcl.hclpayby.ui.vm.common.CommonVM 
+          return (T) new CommonVM(CoroutineDispatchersModule_ProvidesDefaultDispatcherFactory.providesDefaultDispatcher(), CoroutineDispatchersModule_ProvidesIoDispatcherFactory.providesIoDispatcher(), viewModelCImpl.savedStateHandle);
+
+          case 1: // com.hcl.hclpayby.ui.vm.navigation.SharedNavigationVM 
           return (T) new SharedNavigationVM(viewModelCImpl.savedStateHandle);
 
-          case 1: // com.hcl.hclpayby.ui.vm.VM 
+          case 2: // com.hcl.hclpayby.ui.vm.VM 
           return (T) new VM(singletonCImpl.getOtpValidationUseCaseProvider.get(), CoroutineDispatchersModule_ProvidesDefaultDispatcherFactory.providesDefaultDispatcher(), CoroutineDispatchersModule_ProvidesIoDispatcherFactory.providesIoDispatcher(), viewModelCImpl.savedStateHandle);
 
           default: throw new AssertionError(id);
