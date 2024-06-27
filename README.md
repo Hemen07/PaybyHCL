@@ -12,7 +12,7 @@ A simple app that demonstrates basic use cases as per HCL Hackathon.
 Technologies Used -
   
 - MVVM with Clean Architecture
-- Jetpack compose
+- XML + Jetpack compose
 - Kotlin
 - Coroutines
 - Hilt
